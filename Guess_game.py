@@ -4,7 +4,7 @@ import random
 def guess_closeness(g, n):
     print("Hint:\tWinning number is lower") if g > n else print("Hint:\tWinning number is higher")
 
-
+    
 if __name__ == '__main__':
     print("Range of the game 1-20\nYou have 5 guesses in total")
     chances = 5
